@@ -1,0 +1,8 @@
+{
+  "name": "minimum-react-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/flyhighair/minimum-react-ts.git",
+  "author": "hakshu <flyhighup.air25@gmail.com>",
+  "license": "MIT"
+}
