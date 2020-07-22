@@ -2,7 +2,8 @@
   "name": "minimum-react-ts",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "main": "index.js",
   "repository": "https://github.com/flyhighair/minimum-react-ts.git",
