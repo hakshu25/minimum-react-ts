@@ -103,4 +103,3 @@ typings/
 .tern-port
 
 dist/*
-!dist/index.html
