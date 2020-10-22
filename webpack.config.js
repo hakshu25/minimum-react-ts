@@ -31,9 +31,6 @@ module.exports = {
     extensions: ['.tsx', 'ts', '.js'],
   },
   devtool: 'inline-source-map',
-  devServer: {
-    contentBase: './dist',
-  },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.html',
