@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --open"
+    "start": "webpack serve"
   },
   "main": "index.js",
   "repository": "https://github.com/flyhighair/minimum-react-ts.git",
@@ -23,7 +23,7 @@
     "style-loader": "2.0.0",
     "ts-loader": "8.0.6",
     "typescript": "4.0.3",
-    "webpack": "4.44.2",
+    "webpack": "5.2.0",
     "webpack-cli": "4.1.0",
     "webpack-dev-server": "3.11.0"
   }

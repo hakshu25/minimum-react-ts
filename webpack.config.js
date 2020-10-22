@@ -4,7 +4,6 @@ module.exports = {
   mode: 'development',
   entry: './src/index.tsx',
   output: {
-    path: `${__dirname}/dist`,
     filename: 'bundle.js',
   },
   module: {
@@ -31,9 +30,6 @@ module.exports = {
     extensions: ['.tsx', 'ts', '.js'],
   },
   devtool: 'inline-source-map',
-  devServer: {
-    contentBase: './dist',
-  },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.html',
