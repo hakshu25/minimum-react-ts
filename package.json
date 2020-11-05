@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "test": "jest"
   },
   "main": "index.js",
   "repository": "https://github.com/flyhighair/minimum-react-ts.git",
@@ -14,13 +15,22 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@types/jest": "^26.0.15",
     "@types/react": "16.9.53",
     "@types/react-dom": "16.9.8",
+    "@types/react-test-renderer": "^16.9.3",
+    "babel-jest": "^26.6.3",
     "css-loader": "5.0.0",
     "html-webpack-plugin": "4.5.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
+    "react-test-renderer": "^17.0.1",
     "sass": "1.27.0",
     "sass-loader": "10.0.3",
     "style-loader": "2.0.0",
+    "ts-jest": "^26.4.3",
     "ts-loader": "8.0.6",
     "typescript": "4.0.3",
     "webpack": "5.2.0",
