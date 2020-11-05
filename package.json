@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "test": "jest"
   },
   "main": "index.js",
   "repository": "https://github.com/flyhighair/minimum-react-ts.git",
