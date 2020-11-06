@@ -6,7 +6,9 @@
     "start": "webpack serve",
     "test": "jest",
     "test:ci": "jest --coverage --updateSnapshot --ci",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prettier": "prettier --write '**/*.ts*'",
+    "prettier:check": "yarn prettier --check"
   },
   "main": "index.js",
   "repository": "https://github.com/flyhighair/minimum-react-ts.git",
