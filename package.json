@@ -5,7 +5,8 @@
     "build": "webpack",
     "start": "webpack serve",
     "test": "jest",
-    "test:ci": "jest --coverage --updateSnapshot --ci"
+    "test:ci": "jest --coverage --updateSnapshot --ci",
+    "lint": "eslint"
   },
   "main": "index.js",
   "repository": "https://github.com/flyhighair/minimum-react-ts.git",
