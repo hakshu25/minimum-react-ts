@@ -7,8 +7,11 @@
     "test": "jest",
     "test:ci": "jest --coverage --updateSnapshot --ci",
     "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "prettier": "prettier --write '**/*.ts*'",
-    "prettier:check": "yarn prettier --check"
+    "prettier:check": "yarn prettier --check",
+    "codecheck": "yarn lint && yarn prettier:check",
+    "codefix": "yarn lint:fix && yarn prettier"
   },
   "main": "index.js",
   "repository": "https://github.com/flyhighair/minimum-react-ts.git",
