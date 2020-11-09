@@ -1,10 +1,10 @@
-name: test
+name: build
 
 on:
   pull_request:
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -27,4 +27,4 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-yarn-
     - run: yarn
-    - run: yarn test:ci
+    - run: yarn build
