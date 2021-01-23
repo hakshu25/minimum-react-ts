@@ -3050,7 +3050,7 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-esbuild-loader@^2.8.0:
+esbuild-loader@2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/esbuild-loader/-/esbuild-loader-2.8.0.tgz#50c916c87ca8b4bcfe41cf050248cb70d09e4bb6"
   integrity sha512-Pv8WPtSozaGLryTi4c91fMmho7DRhy6zRyh6v3R5DGMPBuXhyVoBdMY4we9uCa0m/CvM5v/XvWyltAsjQ+Wx8w==
