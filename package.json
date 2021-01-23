@@ -2,6 +2,7 @@
   "name": "minimum-react-ts",
   "version": "1.0.0",
   "scripts": {
+    "prebuild": "tsc --noEmit",
     "build": "webpack",
     "start": "webpack serve",
     "test": "jest",

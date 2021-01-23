@@ -5,6 +5,7 @@
     "module": "es2015",
     "lib": ["es2020", "dom"],
     "jsx": "react",
+    "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "noImplicitAny": true,
@@ -19,5 +20,7 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "esModuleInterop": true
-  }
+  },
+  "include": ["src/*.ts*"],
+  "exclude": ["node_modules"]
 }
