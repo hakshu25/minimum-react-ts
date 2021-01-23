@@ -1,4 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { ESBuildPlugin } = require('esbuild-loader');
+const tsconfig = require('./tsconfig.json');
 
 module.exports = {
   mode: 'development',
@@ -10,7 +12,12 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: 'ts-loader',
+        loader: 'esbuild-loader',
+        options: {
+          loader: 'tsx',
+          target: 'es2015',
+          tsconfigRaw: tsconfig,
+        },
         exclude: /node_modules/,
       },
       {
@@ -34,5 +41,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html',
     }),
+    new ESBuildPlugin(),
   ],
 };
