@@ -4,7 +4,6 @@
     "target": "es5",
     "module": "es2015",
     "lib": ["es2020", "dom"],
-    "types": ["cypress"],
     "jsx": "react",
     "skipLibCheck": true,
     "sourceMap": true,
@@ -22,6 +21,6 @@
     "moduleResolution": "node",
     "esModuleInterop": true
   },
-  "include": ["src/*.ts*", "e2e/**/*.ts"],
+  "include": ["src/*.ts*"],
   "exclude": ["node_modules"]
 }
