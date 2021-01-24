@@ -7,6 +7,7 @@
     "start": "webpack serve",
     "test": "jest",
     "test:ci": "jest --coverage --updateSnapshot --ci",
+    "test:e2e": "cypress open",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "prettier": "prettier --write '**/*.ts*'",
