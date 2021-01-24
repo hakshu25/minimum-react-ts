@@ -105,3 +105,6 @@ typings/
 dist/*
 
 src/__snapshots__
+
+e2e/videos
+e2e/screenshots
