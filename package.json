@@ -14,7 +14,7 @@
     "prettier:check": "yarn prettier --check",
     "codecheck": "yarn lint && yarn prettier:check",
     "codefix": "yarn lint:fix && yarn prettier",
-    "postinstall": "husky install"
+    "postinstall": "make postinstall"
   },
   "main": "index.js",
   "repository": "https://github.com/flyhighair/minimum-react-ts.git",
