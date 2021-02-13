@@ -3439,10 +3439,10 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-esbuild-loader@2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/esbuild-loader/-/esbuild-loader-2.9.0.tgz#7bcc1476b094697060466fd7afa144d4af79162e"
-  integrity sha512-I02oOrMuS7RKNgl4ZFuX60iwyVvVORBA6Grvk70cG22ZSwoIO3y1lpBuiJSsT0DJeP1sB9AqqGvTNcyx4wW53Q==
+esbuild-loader@2.9.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/esbuild-loader/-/esbuild-loader-2.9.1.tgz#f8448cb7a6b3d0855e3088ab296fc6961c6e5925"
+  integrity sha512-zAGhZjfppm2+CQueFJS0bDv924uOosA9T3/EAMPbuiiFv0fzulJZx4UNappj7rD1bSJQyqoQecU1/49oq+A+FQ==
   dependencies:
     esbuild "^0.8.42"
     joycon "^2.2.5"
