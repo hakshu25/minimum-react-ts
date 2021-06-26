@@ -1,3 +1,5 @@
+/// <reference types="@testing-library/cypress" />
+
 // ***********************************************************
 // This example support/index.js is processed and
 // loaded automatically before your test files.
@@ -18,3 +20,5 @@ import './commands';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+import '@testing-library/cypress/add-commands';
