@@ -21,7 +21,7 @@
   "author": "hakshu <flyhighup.air25@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": ">= 14"
+    "node": ">= 16"
   },
   "dependencies": {
     "react": "^17.0.0",
