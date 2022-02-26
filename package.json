@@ -43,7 +43,7 @@
     "esbuild-loader": "2.18.0",
     "eslint": "8.10.0",
     "eslint-config-prettier": "8.4.0",
-    "eslint-plugin-react": "7.29.1",
+    "eslint-plugin-react": "7.29.2",
     "html-webpack-plugin": "5.5.0",
     "husky": "7.0.4",
     "identity-obj-proxy": "3.0.0",
