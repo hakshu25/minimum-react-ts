@@ -2,11 +2,11 @@ name: 'Init dependencies'
 description: 'Initialize library dependencies.'
 inputs:
   node-version:
-    default: '16.x'
+    default: '18.x'
     required: false
     description: 'version of Node.js'
 runs:
-  using: "composite"
+  using: 'composite'
   steps:
     - name: Use Node.js ${{ inputs.node-version }}
       uses: actions/setup-node@v3
