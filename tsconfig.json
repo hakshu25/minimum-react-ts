@@ -19,7 +19,8 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "isolatedModules": true
   },
   "include": ["src/*.ts*"],
   "exclude": ["node_modules"]
