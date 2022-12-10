@@ -4,7 +4,7 @@
   "scripts": {
     "prebuild": "tsc --noEmit",
     "build": "vite build",
-    "start": "vite",
+    "start": "vite --port 8080",
     "test": "jest",
     "test:ci": "jest --coverage --updateSnapshot --ci",
     "test:e2e": "cypress open",
