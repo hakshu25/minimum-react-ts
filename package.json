@@ -11,7 +11,7 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "prettier": "prettier --write '**/*.{js,ts,tsx,md,json,html,scss}'",
-    "prettier:check": "yarn prettier --check",
+    "prettier:check": "prettier --check '**/*.{js,ts,tsx,md,json,html,scss}'",
     "codecheck": "yarn lint && yarn prettier:check",
     "codefix": "yarn lint:fix && yarn prettier",
     "postinstall": "make postinstall"
