@@ -17,8 +17,8 @@
     "postinstall": "make postinstall"
   },
   "main": "index.js",
-  "repository": "https://github.com/flyhighair/minimum-react-ts.git",
-  "author": "hakshu <flyhighup.air25@gmail.com>",
+  "repository": "https://github.com/hakshu25/minimum-react-ts.git",
+  "author": "hakshu25 <hakshu25@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">= 16"
