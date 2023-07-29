@@ -40,7 +40,7 @@
     "@vitejs/plugin-react": "^4.0.0",
     "babel-jest": "29.6.2",
     "cypress": "12.17.2",
-    "eslint": "8.45.0",
+    "eslint": "8.46.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-react": "7.33.0",
     "husky": "8.0.3",
