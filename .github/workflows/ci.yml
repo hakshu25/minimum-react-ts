@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Initialize
         uses: ./.github/actions/init
       - run: yarn build
@@ -18,7 +18,7 @@ jobs:
   codecheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Initialize
         uses: ./.github/actions/init
       - run: yarn codecheck
@@ -26,7 +26,7 @@ jobs:
   unit-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Initialize
         uses: ./.github/actions/init
       - run: yarn test:ci
@@ -34,7 +34,7 @@ jobs:
   e2e-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Initialize
         uses: ./.github/actions/init
       - name: Cypress run
