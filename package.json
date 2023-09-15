@@ -49,7 +49,7 @@
     "jest-environment-jsdom": "29.6.4",
     "lint-staged": "14.0.1",
     "prettier": "3.0.3",
-    "sass": "1.66.1",
+    "sass": "1.67.0",
     "ts-jest": "29.1.1",
     "typescript": "5.2.2",
     "vite": "^4.0.0"
